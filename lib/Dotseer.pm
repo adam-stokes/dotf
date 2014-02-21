@@ -7,7 +7,7 @@ package Dotseer;
 use App::Cmd::Setup -app;
 
 sub global_opt_spec {
-  return(["verbose|v:S@", "verbosity"]);
+  return(["verbose|v:s@", "verbosity"]);
 }
 
 1;
