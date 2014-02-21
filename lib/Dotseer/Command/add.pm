@@ -18,17 +18,34 @@ Add dotfile to manage
 
 sub abstract {'Add dotfile to manage'}
 
-sub usage_desc { '%c %o <dotfile>' }
+sub usage_desc { '%c %o -s <src path> -d <destination path> -l' }
 
 sub validate_args {
     my ($self, $opt, $args) = @_;
-    $self->usage_error('dotseer add <file> only.') if @$args != 1;
-  }
+    $self->usage_error("needs -s and -d") if !$opt->{src} or !$opt->{dst};
+}
+
+sub opt_spec {
+    return (
+        ["src|s=s", "source path of dotfile"],
+        ["dst|d=s", "destination path of dotfile"],
+        [   "nolink|n",
+            "do not make this symlink, default is to symlink all dotfiles"
+        ]
+    );
+}
+
 
 sub execute {
     my ($self, $opt, $arg) = @_;
-    printf("Now managing: %s.\n", $arg->[0]);
-  }
+    $self->meta->{src_path} = $opt->{src};
+    $self->meta->{dst_path} = $opt->{dst};
+    $self->meta->{symlink}  = 0 if $opt->{nolink};
+
+    $self->add_dotfile;
+
+    $self->do_link;
+}
 
 
 1;

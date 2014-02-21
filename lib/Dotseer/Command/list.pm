@@ -20,7 +20,7 @@ sub usage_desc {'%c %o'}
 
 sub execute {
     my ($self, $opt, $arg) = @_;
-    return;
+    $self->list_dotfiles;
 }
 
 1;
