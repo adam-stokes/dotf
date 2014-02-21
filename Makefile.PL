@@ -17,10 +17,16 @@ my %WriteMakefileArgs = (
     "ExtUtils::MakeMaker" => "6.30"
   },
   "DISTNAME" => "Dotseer",
-  "EXE_FILES" => [],
+  "EXE_FILES" => [
+    "bin/dotseer"
+  ],
   "LICENSE" => "perl",
   "NAME" => "Dotseer",
   "PREREQ_PM" => {
+    "App::Cmd::Setup" => 0,
+    "Moo" => 0,
+    "Moo::Role" => 0,
+    "namespace::clean" => 0,
     "strict" => 0,
     "warnings" => 0
   },
@@ -38,10 +44,14 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "App::Cmd::Setup" => 0,
   "Mojolicious" => 0,
+  "Moo" => 0,
+  "Moo::Role" => 0,
   "Test::Mojo" => 0,
   "Test::More" => 0,
   "Test::NoTabs" => 0,
+  "namespace::clean" => 0,
   "strict" => 0,
   "warnings" => 0
 );

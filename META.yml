@@ -17,6 +17,10 @@ meta-spec:
   version: '1.4'
 name: Dotseer
 requires:
+  App::Cmd::Setup: '0'
+  Moo: '0'
+  Moo::Role: '0'
+  namespace::clean: '0'
   strict: '0'
   warnings: '0'
 version: '0.1'
