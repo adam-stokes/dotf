@@ -1,0 +1,6 @@
+#!/usr/bin/env perl
+# PODNAME: dotf
+# ABSTRACT: Dotf, manage your dotfiles.
+
+use Dotf;
+Dotf->run;

@@ -1,4 +1,4 @@
-package Dotseer::Role::Export;
+package Dotf::Role::Export;
 # ABSTRACT: Export role
 
 use Moo::Role;

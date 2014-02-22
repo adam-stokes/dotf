@@ -24,6 +24,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Dotseer",
   "PREREQ_PM" => {
     "App::Cmd::Setup" => 0,
+    "DDP" => 0,
     "DateTime" => 0,
     "Mango" => 0,
     "Moo" => 0,
@@ -40,7 +41,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0,
     "Test::NoTabs" => 0
   },
-  "VERSION" => "0.1",
+  "VERSION" => "0.001",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -49,6 +50,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "App::Cmd::Setup" => 0,
+  "DDP" => 0,
   "DateTime" => 0,
   "Mango" => 0,
   "Mojolicious" => 0,

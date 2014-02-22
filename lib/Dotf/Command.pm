@@ -1,8 +1,8 @@
 use strict;
 use warnings;
-package Dotseer::Command;
+package Dotf::Command;
 
-# ABSTRACT: base for dotseer commands
+# ABSTRACT: base for Dotf commands
 
 use App::Cmd::Setup -command;
 

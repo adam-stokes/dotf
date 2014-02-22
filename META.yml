@@ -18,6 +18,7 @@ meta-spec:
 name: Dotseer
 requires:
   App::Cmd::Setup: '0'
+  DDP: '0'
   DateTime: '0'
   Mango: '0'
   Moo: '0'
@@ -27,4 +28,4 @@ requires:
   namespace::clean: '0'
   strict: '0'
   warnings: '0'
-version: '0.1'
+version: '0.001'

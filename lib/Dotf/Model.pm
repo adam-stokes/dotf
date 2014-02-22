@@ -1,4 +1,4 @@
-package Dotseer::Model;
+package Dotf::Model;
 
 use Moo;
 use Mango;
@@ -7,7 +7,7 @@ use DateTime;
 has 'mgo' => (
     is => 'ro',
     default =>
-      sub { Mango->new('mongodb://localhost:27017/dotseer') }
+      sub { Mango->new('mongodb://localhost:27017/Dotf') }
 );
 
 sub dotfile {

@@ -1,6 +1,0 @@
-#!/usr/bin/env perl
-# PODNAME: dotseer
-# ABSTRACT: Dotseer, manage your dotfiles.
-
-use Dotseer;
-Dotseer->run;

@@ -1,4 +1,5 @@
 requires "App::Cmd::Setup" => "0";
+requires "DDP" => "0";
 requires "DateTime" => "0";
 requires "Mango" => "0";
 requires "Moo" => "0";

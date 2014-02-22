@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-package Dotseer;
+package Dotf;
 # ABSTRACT: dotfile manager
 
 use App::Cmd::Setup -app;

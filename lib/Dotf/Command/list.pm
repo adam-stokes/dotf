@@ -1,16 +1,16 @@
-package Dotseer::Command::list;
+package Dotf::Command::list;
 
 # ABSTRACT: List managed dotfiles
 
 use Moo;
 use namespace::clean;
 
-use Dotseer -command;
-with qw(Dotseer::Role::List);
+use Dotf -command;
+with qw(Dotf::Role::List);
 
 =head1 SYNOPSIS
 
-    dotseer list
+    dotf list
 
 =cut
 

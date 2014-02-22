@@ -1,14 +1,14 @@
-package Dotseer::Role::Add;
+package Dotf::Role::Add;
 # ABSTRACT: Add role
 
 use Moo::Role;
 use namespace::clean;
-use Dotseer::Model;
+use Dotf::Model;
 use Path::Tiny;
 
 has model => (
     is  => 'ro',
-    default => sub { Dotseer::Model->new }
+    default => sub { Dotf::Model->new }
 );
 
 has meta => (

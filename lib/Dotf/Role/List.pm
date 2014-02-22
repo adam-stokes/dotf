@@ -1,14 +1,14 @@
-package Dotseer::Role::List;
+package Dotf::Role::List;
 # ABSTRACT: List role
 
 use Moo::Role;
 use namespace::clean;
-use Dotseer::Model;
+use Dotf::Model;
 use Text::Table;
 
 has model => (
     is      => 'ro',
-    default => sub { Dotseer::Model->new }
+    default => sub { Dotf::Model->new }
 );
 
 sub list_dotfiles {

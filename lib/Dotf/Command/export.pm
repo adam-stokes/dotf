@@ -1,19 +1,18 @@
-package Dotseer::Command::export;
+package Dotf::Command::export;
 
 # ABSTRACT: Export to a rex/ansible deployer
 
 use Moo;
 use namespace::clean;
-
-use Dotseer -command;
-with qw(Dotseer::Role::Export);
+use Dotf -command;
+with qw(Dotf::Role::Export);
 
 =head1 SYNOPSIS
 
-    dotseer export ansible
+    dotf export ansible
     > Ansible playbook.yml created.
 
-    dotseer export rex
+    dotf export rex
     > Rexfile generated.
 
 =cut
@@ -24,8 +23,8 @@ sub usage_desc {'%c %o <rex|ansible>'}
 
 sub validate_args {
     my ($self, $opt, $args) = @_;
-    $self->usage_error('dotseer export <rex|ansible> only.') if @$args != 1;
-    $self->usage_error('dotseer supports rex and ansible only.')
+    $self->usage_error('Dotf export <rex|ansible> only.') if @$args != 1;
+    $self->usage_error('Dotf supports rex and ansible only.')
       if $args->[0] !~ /rex|ansible/;
 }
 

@@ -1,18 +1,18 @@
-package Dotseer::Command::add;
+package Dotf::Command::add;
 
 # ABSTRACT: Add dotfile to manage
 
 use Moo;
 use namespace::clean;
 
-use Dotseer -command;
-with qw(Dotseer::Role::Add);
+use Dotf -command;
+with qw(Dotf::Role::Add);
 
 =head1 SYNOPSIS
 
 Add dotfile to manage
 
-    dotseer add -s ~/dotfiles/zshrc -d ~/.zshrc
+    dotf add -s ~/dotfiles/zshrc -d ~/.zshrc
 
 =cut
 
