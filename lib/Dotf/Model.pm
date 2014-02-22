@@ -41,7 +41,7 @@ sub save {
 
 sub remove {
     my ($self, $path) = @_;
-    $self->dotfile->remove({path => $path});
+    $self->dotfile->remove({dst => $path});
 }
 
 

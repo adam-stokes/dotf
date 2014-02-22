@@ -17,7 +17,7 @@ with qw(Dotf::Role::List);
 
 sub abstract {'List managed dotfiles'}
 
-sub usage_desc {'%c %o'}
+sub usage_desc {'%c %o list'}
 
 sub execute {
     my ($self, $opt, $arg) = @_;
