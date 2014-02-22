@@ -2,10 +2,11 @@ package Dotf::Command::list;
 
 # ABSTRACT: List managed dotfiles
 
+use Dotf -command;
+
 use Moo;
 use namespace::clean;
 
-use Dotf -command;
 with qw(Dotf::Role::List);
 
 =head1 SYNOPSIS

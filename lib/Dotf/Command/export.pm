@@ -1,10 +1,11 @@
 package Dotf::Command::export;
 
 # ABSTRACT: Export to a rex/ansible deployer
+use Dotf -command;
 
 use Moo;
 use namespace::clean;
-use Dotf -command;
+
 with qw(Dotf::Role::Export);
 
 =head1 SYNOPSIS

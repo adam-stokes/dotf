@@ -16,16 +16,18 @@ my %WriteMakefileArgs = (
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
   },
-  "DISTNAME" => "Dotseer",
+  "DISTNAME" => "Dotf",
   "EXE_FILES" => [
-    "bin/dotseer"
+    "bin/dotf"
   ],
   "LICENSE" => "perl",
-  "NAME" => "Dotseer",
+  "NAME" => "Dotf",
   "PREREQ_PM" => {
     "App::Cmd::Setup" => 0,
     "DDP" => 0,
     "DateTime" => 0,
+    "DateTime::Format::RFC3339" => 0,
+    "IO::Prompt" => 0,
     "Mango" => 0,
     "Moo" => 0,
     "Moo::Role" => 0,
@@ -41,7 +43,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0,
     "Test::NoTabs" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.1",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -52,6 +54,8 @@ my %FallbackPrereqs = (
   "App::Cmd::Setup" => 0,
   "DDP" => 0,
   "DateTime" => 0,
+  "DateTime::Format::RFC3339" => 0,
+  "IO::Prompt" => 0,
   "Mango" => 0,
   "Mojolicious" => 0,
   "Moo" => 0,

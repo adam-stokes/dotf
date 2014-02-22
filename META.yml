@@ -15,11 +15,13 @@ license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
-name: Dotseer
+name: Dotf
 requires:
   App::Cmd::Setup: '0'
   DDP: '0'
   DateTime: '0'
+  DateTime::Format::RFC3339: '0'
+  IO::Prompt: '0'
   Mango: '0'
   Moo: '0'
   Moo::Role: '0'
@@ -28,4 +30,4 @@ requires:
   namespace::clean: '0'
   strict: '0'
   warnings: '0'
-version: '0.001'
+version: '0.1'

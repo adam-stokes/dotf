@@ -1,4 +1,5 @@
 package Dotf::Model;
+# ABSTRACT: Dotf Model class
 
 use Moo;
 use Mango;
@@ -7,7 +8,7 @@ use DateTime;
 has 'mgo' => (
     is => 'ro',
     default =>
-      sub { Mango->new('mongodb://localhost:27017/Dotf') }
+      sub { Mango->new('mongodb://localhost:27017/dotf') }
 );
 
 sub dotfile {
@@ -21,8 +22,8 @@ sub all {
 }
 
 sub get {
-    my ($self, $path) = shift;
-    $self->dotfile->find_one({path => $path});
+    my ($self, $dst) = @_;
+    $self->dotfile->find_one({dst => $dst});
 }
 
 sub add {
