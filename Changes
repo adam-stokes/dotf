@@ -1,7 +1,111 @@
-Revision history for {{$dist->name}}
+==================================================
+Changes from 2013-02-22 00:00:00 +0000 to present.
+==================================================
 
-{{$NEXT}}
+----------------------------------------
+version 0.3 at 2014-02-22 17:28:35 +0000
+----------------------------------------
 
-0.2     2014-02-22
+  Change: 67208c8cdb067bc1e1c0ff9ffef795f5610269c6
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-22 12:28:13 +0000
 
-0.1     2014-02-22
+    Generate Changes from git
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+----------------------------------------
+version 0.2 at 2014-02-22 17:26:13 +0000
+----------------------------------------
+
+  Change: 76645e30cf2b4d8b0214331820ca45a2928a3d22
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-22 12:26:13 +0000
+
+    v0.2 
+
+  Change: 03f25c0a1a3fe12741e7ed6da2dd252eab73885d
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-22 12:26:02 +0000
+
+    prep
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+  Change: 063af89f071f34e98eb6f54ebd87fb66ceaca84f
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-22 12:07:29 +0000
+
+    add rm
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+----------------------------------------
+version 0.1 at 2014-02-22 04:17:16 +0000
+----------------------------------------
+
+  Change: 7de88b22c2efa6558f4911acdbf9d497bac547ec
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-21 23:17:16 +0000
+
+    v0.1 
+
+  Change: 01829465eb5ed9351df8c4d0ef79064e10d04e97
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-21 23:17:09 +0000
+
+    add scan support for managed/unmanaged dotfiles
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+  Change: 8bebe385da9e21e18ff05932eb008324a66bbc39
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-21 21:02:16 +0000
+
+    rename
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+  Change: ebb61db9230687d7f065bf5bd7e51144a9c46255
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-21 20:14:31 +0000
+
+    link
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+  Change: 1efc86b940ae53ec0a20129099dd2d3e601ad442
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-21 18:16:55 +0000
+
+    add symlink and print list
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+  Change: 2d3a6997b150a51bf4ac76c6bce29b4510705b6c
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-21 13:31:07 +0000
+
+    add/list/export skeleton added
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+  Change: 2be6aafc2018c66fa23af4b1aaac46e8b40d6c15
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-21 13:17:49 +0000
+
+    skeleton
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+  Change: 643e9d6eab4d01eac713a68969db8cff33781474
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-21 03:02:37 +0000
+
+    initial
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+================
+End of releases.
+================
