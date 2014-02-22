@@ -12,7 +12,7 @@ with qw(Dotseer::Role::Add);
 
 Add dotfile to manage
 
-    dotseer add git-repo/dotfiles/zshrc
+    dotseer add -s ~/dotfiles/zshrc -d ~/.zshrc
 
 =cut
 
@@ -44,7 +44,7 @@ sub execute {
 
     $self->add_dotfile;
 
-    $self->do_link;
+    $self->do_link unless !$self->meta->{symlink};
 }
 
 
