@@ -12,6 +12,10 @@ with qw(Dotf::Role::Export);
 
     $ dotf export -f|--format yaml
 
+=head1 DESCRIPTION
+
+Exports managed dotfiles for easy backup
+
 =cut
 
 sub abstract {'Export'}

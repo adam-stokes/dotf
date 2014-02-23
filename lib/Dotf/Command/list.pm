@@ -13,6 +13,10 @@ with qw(Dotf::Role::List);
 
     $ dotf list
 
+=head1 DESCRIPTION
+
+List files known to dotf
+
 =cut
 
 sub abstract {'List managed dotfiles'}

@@ -16,6 +16,10 @@ Add dotfile to manage
 
     $ dotf rm ~/.zshrc
 
+=head1 DESCRIPTION
+
+Removes dotfiles managed by dotf
+
 =cut
 
 sub abstract {'Remove a managed dotfile'}

@@ -12,9 +12,11 @@ with qw(Dotf::Role::Add);
 
 =head1 SYNOPSIS
 
-Add dotfile to manage
-
     $ dotf add -s ~/dotfiles/zshrc -d ~/.zshrc
+
+=head1 DESCRIPTION
+
+Adds dotfile to be managed by dotf
 
 =cut
 

@@ -9,9 +9,14 @@ use namespace::clean;
 
 with qw(Dotf::Role::Scan);
 
-=head1 SYNOPSYS
+=head1 SYNOPSIS
 
     $ dotf scan -d ~/ --exclude "ecryptfs"
+
+=head1 DESCRIPTION
+
+Scans directory (by default $HOME) for symlinked dotfiles that are
+managed or unmanaged by dotf
 
 =cut
 
