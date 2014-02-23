@@ -11,7 +11,7 @@ with qw(Dotf::Role::Scan);
 
 =head1 SYNOPSYS
 
-    dotf scan -d ~/ --exclude "ecryptfs"
+    $ dotf scan -d ~/ --exclude "ecryptfs"
 
 =cut
 

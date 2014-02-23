@@ -14,7 +14,7 @@ with qw(Dotf::Role::Remove);
 
 Add dotfile to manage
 
-    > dotf rm ~/.zshrc
+    $ dotf rm ~/.zshrc
 
 =cut
 

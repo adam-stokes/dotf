@@ -44,5 +44,4 @@ sub remove {
     $self->dotfile->remove({dst => $path});
 }
 
-
 1;

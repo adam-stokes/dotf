@@ -1,6 +1,6 @@
 package Dotf::Command::export;
 
-# ABSTRACT: Export to a rex/ansible deployer
+# ABSTRACT: Export to json/yaml
 use Dotf -command;
 
 use Moo;
@@ -10,28 +10,28 @@ with qw(Dotf::Role::Export);
 
 =head1 SYNOPSIS
 
-    dotf export ansible
-    > Ansible playbook.yml created.
-
-    dotf export rex
-    > Rexfile generated.
+    $ dotf export -f|--format yaml
 
 =cut
 
-sub abstract {'Export to a rex/ansible deployer'}
+sub abstract {'Export'}
 
-sub usage_desc {'%c %o <rex|ansible>'}
+sub usage_desc {'%c %o --format [yaml|json]'}
+
+sub opt_spec {
+    return (['format|f=s', 'Export as yaml/json']);
+}
 
 sub validate_args {
     my ($self, $opt, $args) = @_;
-    $self->usage_error('Dotf export <rex|ansible> only.') if @$args != 1;
-    $self->usage_error('Dotf supports rex and ansible only.')
-      if $args->[0] !~ /rex|ansible/;
+    $self->usage_error("Only YAML or JSON supported")
+      unless $opt->{format} =~ /yaml|json/i;
 }
 
 sub execute {
     my ($self, $opt, $arg) = @_;
-    printf("Exporting to: %s.\n", $arg->[0]);
+    $self->print_yaml if $opt->{format} =~ /yaml/i;
+    $self->print_json if $opt->{format} =~ /json/i;
 }
 
 

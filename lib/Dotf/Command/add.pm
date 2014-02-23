@@ -14,7 +14,7 @@ with qw(Dotf::Role::Add);
 
 Add dotfile to manage
 
-    > dotf add -s "~/dotfiles/zshrc" -d "~/.zshrc"
+    $ dotf add -s ~/dotfiles/zshrc -d ~/.zshrc
 
 =cut
 
