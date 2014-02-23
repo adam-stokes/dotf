@@ -3,8 +3,16 @@ Changes from 2013-02-23 00:00:00 +0000 to present.
 ==================================================
 
 ----------------------------------------
-version 0.4 at 2014-02-23 02:17:47 +0000
+version 0.4 at 2014-02-23 02:18:22 +0000
 ----------------------------------------
+
+  Change: 353d4c2bd2d5ee3ae06b9205b1f66134157b057f
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-22 21:17:58 +0000
+
+    Add support for exporting managed dotfiles to json/yaml
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
 
   Change: 5309d9d1e0ce7c0f3834eedd6f57b574aa88af2a
   Author: Adam Stokes <adam.stokes@ubuntu.com>
