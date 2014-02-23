@@ -3,8 +3,34 @@ Changes from 2013-02-23 00:00:00 +0000 to present.
 ==================================================
 
 ----------------------------------------
-version 0.5 at 2014-02-23 02:35:05 +0000
+version 0.6 at 2014-02-23 02:53:05 +0000
 ----------------------------------------
+
+  Change: a85af1b3e9b493d237c2410920079aca72abea64
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-22 21:52:55 +0000
+
+    Update docs
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+  Change: d15381947b2e43eadea0eec73d26c670c98c6209
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-22 21:52:26 +0000
+
+    Update dist.ini
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+----------------------------------------
+version 0.5 at 2014-02-23 02:35:09 +0000
+----------------------------------------
+
+  Change: ff1c664914f85656b1199aaf468b5ee286fdf56a
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-22 21:35:09 +0000
+
+    v0.5 
 
   Change: 4e7149fa9f06fcc932cf5782a791a32ebb864e0f
   Author: Adam Stokes <adam.stokes@ubuntu.com>
