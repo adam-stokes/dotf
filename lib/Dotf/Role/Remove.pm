@@ -1,5 +1,5 @@
 package Dotf::Role::Remove;
-# ABSTRACT: Add role
+# ABSTRACT: Remove role
 
 use Dotf::Model;
 use Path::Tiny;
