@@ -11,7 +11,7 @@ with qw(Dotf::Role::Scan);
 
 =head1 SYNOPSIS
 
-    $ dotf scan -d ~/ --exclude "ecryptfs"
+$ dotf scan -d ~/ --exclude "ecryptfs"
 
 =head1 DESCRIPTION
 

@@ -10,7 +10,7 @@ with qw(Dotf::Role::Export);
 
 =head1 SYNOPSIS
 
-    $ dotf export -f|--format yaml
+$ dotf export -f|--format yaml
 
 =head1 DESCRIPTION
 

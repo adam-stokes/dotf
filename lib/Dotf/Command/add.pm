@@ -12,7 +12,7 @@ with qw(Dotf::Role::Add);
 
 =head1 SYNOPSIS
 
-    $ dotf add -s ~/dotfiles/zshrc -d ~/.zshrc
+$ dotf add -s ~/dotfiles/zshrc -d ~/.zshrc
 
 =head1 DESCRIPTION
 

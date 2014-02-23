@@ -11,7 +11,7 @@ with qw(Dotf::Role::List);
 
 =head1 SYNOPSIS
 
-    $ dotf list
+$ dotf list
 
 =head1 DESCRIPTION
 
