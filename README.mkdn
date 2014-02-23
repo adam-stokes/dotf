@@ -6,6 +6,38 @@ Dotf - dotfile manager
 
 version 0.5
 
+## Running
+
+### Adding files to dotf
+
+$ dotf add -s ~/CFG/zshrc -d ~/.zshrc
+
+This adds the destination __~/.zshrc__ to dotf to be managed and symlinked.
+
+### Scanning
+
+$ dotf scan -d $HOME
+
+This scan all known symlinks and reports on which ones are managed by dotf
+
+### Exporting
+
+$ dotf export -f json
+
+Exports all managed dotfiles to json for use in other applications/workflows.
+
+### Removing
+
+$ dotf rm ~/.zshrc
+
+Unmanages and unlinks the destination from dotf and the filesystem.
+
+## What's Next
+
+- Add support for exporting to ansible playbooks, puppet modules, and rex.
+- Support merging, updating, and revisions via git.
+- A rex plugin for easily keeping your dotfiles insync across multiple systems.
+
 # AUTHOR
 
 Adam Stokes <adamjs@cpan.org>

@@ -3,12 +3,28 @@ Changes from 2013-02-23 00:00:00 +0000 to present.
 ==================================================
 
 ----------------------------------------
-version 0.5 at 2014-02-23 02:26:25 +0000
+version 0.5 at 2014-02-23 02:34:56 +0000
 ----------------------------------------
 
-  Change: f7390a3dae7e1de68be446f2eddbdf400a2fe6ca
+  Change: 887ffc9e48f4a0723d2b75b0bb6f9989116f81eb
   Author: Adam Stokes <adam.stokes@ubuntu.com>
-  Date : 2014-02-22 21:26:22 +0000
+  Date : 2014-02-22 21:34:49 +0000
+
+    update main doc
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+  Change: 5187d4c43c8be50e26ab4c217a50664db9629794
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-22 21:28:04 +0000
+
+    more doc update
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+  Change: 033ee5b61563ec4a9531cf639b2d79383018bd15
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-22 21:26:35 +0000
 
     Update header documentation
 
