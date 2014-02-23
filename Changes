@@ -1,10 +1,28 @@
 ==================================================
-Changes from 2013-02-22 00:00:00 +0000 to present.
+Changes from 2013-02-23 00:00:00 +0000 to present.
 ==================================================
 
 ----------------------------------------
-version 0.3 at 2014-02-22 17:29:27 +0000
+version 0.4 at 2014-02-23 01:48:51 +0000
 ----------------------------------------
+
+  Change: d88530efa176985d84d887eea9eb2214b97caa1c
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-22 20:48:48 +0000
+
+    Only include README.mkdn
+
+    Signed-off-by: Adam Stokes <adam.stokes@ubuntu.com> 
+
+----------------------------------------
+version 0.3 at 2014-02-22 17:29:33 +0000
+----------------------------------------
+
+  Change: 10569edb35eac0b44a0e118dd7597918f4c9d05a
+  Author: Adam Stokes <adam.stokes@ubuntu.com>
+  Date : 2014-02-22 12:29:33 +0000
+
+    v0.3 
 
   Change: 4a994003e6fbe79b06ced5a803032330b30a20cd
   Author: Adam Stokes <adam.stokes@ubuntu.com>
