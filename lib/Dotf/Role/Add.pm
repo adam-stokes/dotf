@@ -15,7 +15,7 @@ sub add_dotfile {
     my ($self, $src, $dst) = @_;
     $src = path($src);
     $dst = path($dst);
-    $self->model->add({src => $src, dst => $dst});
+    $self->model->add({src => $src->stringify, dst => $dst->stringify});
     symlink($src, $dst) unless $dst->exists;
 }
 
